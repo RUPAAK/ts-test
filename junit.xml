@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="20.21">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-08-14T09:53:15" time="19.373" tests="1">
+    <testcase classname=" should not throw 404 while calling signin endpoint" name=" should not throw 404 while calling signin endpoint" time="0.103">
+    </testcase>
+  </testsuite>
+</testsuites>
