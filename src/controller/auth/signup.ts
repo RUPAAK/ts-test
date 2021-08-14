@@ -2,7 +2,7 @@ import {Request, Response} from 'express';
 import { BadRequestError } from '../../common';
 import { User } from '../../model/user';
 
-const signin= async(req: Request, res: Response)=>{
+const signup= async(req: Request, res: Response)=>{
     const {name, email, pass}= req.body
 
     const existUser= await User.findOne({email})
@@ -17,4 +17,4 @@ const signin= async(req: Request, res: Response)=>{
     })
 }
 
-export {signin as signinHandler}
+export {signup as signupHandler}
